@@ -8,8 +8,8 @@
 
 *SpringBoot+nginx+MySql+Lombok+MyBatis-Plus+Hutool+Redis*
 
-使用 Redis 解决了在集群模式下的 Session共享问题,使用拦截器实现用户的登录校验和权限刷新
-
+使用 Redis 解决了在集群模式下的 Session共享问题,使用拦截器实现用户的登录校验和权限刷新*
+*
 基于Cache Aside模式解决数据库与缓存的一致性问题
 
 使用 Redis 对高频访问的信息进行缓存，降低了数据库查询的压力,解决了缓存穿透、雪崩、击穿问题使用 Redis + Lua脚
